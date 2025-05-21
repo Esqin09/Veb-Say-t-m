@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <title>Mənim Veb Səhifəm</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        :root {
+            --main-color: #007BFF;
+            --secondary-color: #0056b3;
+            --light-bg: #f0f8ff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--light-bg);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(90deg, var(--main-color), var(--secondary-color));
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        main {
+            padding: 30px;
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            border-radius: 12px;
+        }
+
+        h2 {
+            color: var(--main-color);
+            border-bottom: 2px solid var(--main-color);
+            padding-bottom: 5px;
+        }
+
+        .about-box {
+            background-color: #e9f5ff;
+            padding: 20px;
+            margin-top: 15px;
+            border-left: 6px solid var(--main-color);
+            border-radius: 10px;
+            font-size: 1.1em;
+            line-height: 1.7;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            color: #222;
+            transition: background-color 0.3s ease;
+        }
+
+        .about-box:hover {
+            background-color: #d6ecff;
+        }
+
+        .about-box strong {
+            color: var(--secondary-color);
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            background-color: #e9f0fc;
+            margin: 10px 0;
+            padding: 10px 15px;
+            border-left: 5px solid var(--main-color);
+            border-radius: 5px;
+        }
+
+        .contact-section {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .contact-section img {
+            max-width: 200px;
+            transition: transform 0.3s ease;
+        }
+
+        .contact-section img:hover {
+            transform: scale(1.05);
+        }
+
+        .whatsapp-link {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: var(--main-color);
+            font-weight: bold;
+        }
+
+        .whatsapp-link:hover {
+            color: var(--secondary-color);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: var(--main-color);
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .cv-section {
+            margin-top: 40px;
+        }
+
+        .cv-note {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #222;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Xoş Gəlmisiniz!</h1>
+    <p>↓ "Peşəkar İT həlləri və kreativ yanaşmalar burada toplanıb." ↓</p>
+</header>
+
+<main>
+    <h2>Haqqında</h2>
+    <div class="about-box">
+        Mən <strong>İsmayıllı Dövlət Peşə Təhsil Mərkəzində</strong> təhsil almışam. 
+        <strong>İT xidmətləri sahəsində bir çox təcrübələrim</strong> var. 
+        Müxtəlif texnologiyalarla işləmə bacarığım var və həm texniki, həm də müştəri yönümlü layihələrdə iştirak etmişəm.
+    </div>
+
+    <h2>Xidmətlərimiz</h2>
+    <ul>
+        <li>Web Dizayn və İnkişaf</li>
+        <li>Proqramlaşdırma (HTML, CSS, JS, Python və s.)</li>
+        <li>SEO Optimallaşdırma</li>
+        <li>Şəbəkə və Sistem Dəstəyi</li>
+        <li>Texniki məsləhət və dəstək</li>
+        <li><strong>CV hazırlanması</strong></li>
+    </ul>
+
+    <div class="cv-section">
+        <h2>CV</h2>
+        <p class="cv-note">Sizlər üçün peşəkar CV-lər hazırlaya bilərəm. Əlaqə saxlayaraq sifariş edə bilərsiniz.</p>
+    </div>
+
+    <div class="contact-section">
+        <h2>Əlaqə</h2>
+        <a href="https://wa.me/994777472709" class="whatsapp-link">
+            <img src="https://i.imgur.com/your-image-url.jpg" alt="Saytını qururam - WhatsApp Keçid">
+            <div>Bizimlə WhatsApp vasitəsilə əlaqə saxlayın</div>
+        </a>
+    </div>
+</main>
+
+<footer>
+    &copy; 2025 Bütün hüquqlar qorunur.
+</footer>
+
+</body>
+</html>
+
+
+
